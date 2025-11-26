@@ -4,7 +4,7 @@ from datetime import date, time as dtime
 import calendar
 import pandas as pd
 import streamlit as st
-from supabase import create_client, Client
+from supabase_py import create_client, Client
 
 SB_URL = st.secrets["SUPABASE_URL"]
 SB_KEY = st.secrets["SUPABASE_KEY"]
